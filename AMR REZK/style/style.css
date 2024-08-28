@@ -1,0 +1,151 @@
+body{
+    background: rgb(129, 130, 133);
+}
+/* container1 */
+.container{
+    background-image: linear-gradient( to bottom right , white,gray) ;
+    height:200vh;
+    margin: 40px;
+    border-radius: 40px;
+    padding: 20px;
+    background-repeat: no-repeat;
+} 
+/* navbar */
+.nav{
+   margin: 20px;
+   width: 93%;
+   justify-content: space-between;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box input{
+    width: 35rem;
+    height: 2rem;
+    font-size:medium;
+    padding: 5px;
+}
+#search{
+    background-image: url(../image/searsh.png);
+    background-repeat: no-repeat;
+    background-size: 20px ;
+   padding: 2px 0 0 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 60px;
+    margin-right: 10px;
+}
+.menu li{
+   display: inline-block;
+   border-right: solid 0.1rem black;
+   padding: 0 2rem;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+.shop{
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+/* partone */
+.link{
+   border-radius: 10px;
+   padding: 2rem 24.1rem;
+   background: rgb(5, 48, 68);
+   font-size: x-large;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   display: inline-flex;
+   color: white;
+}
+.items{
+    padding: 5rem 0;
+}
+.items div{
+    display: inline-block;
+    width: 17.6rem;
+    text-align: center;
+    border: solid 0.2rem black;
+    border-radius: 2rem;
+    padding: 2rem 0;
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ios{
+   background-image: url(../image/images\ \(14\).jpeg);
+   background-size: cover;
+   background-repeat:no-repeat ;
+   color: white;
+}
+.andorid{
+    background-image: url(../image/66c23f9566266ec63f39b2dac1a56585.jpg);
+    background-size: 20rem 11rem;
+    background-repeat: no-repeat;
+    color: white;
+}
+.apple_watch{
+   background-image: url(../image/cdcdabfb9b5259236eb5b6a7d4f17666.jpg);
+   background-repeat: no-repeat;
+   color: white;
+   background-size: 18rem 8rem;
+}
+.accessorise{
+    background-image: url(../image/0f9f6743ed9555bd85f2c514909d1621.jpg);
+    background-size: 18rem 8rem;
+    background-repeat: no-repeat;
+    color: white;
+}
+.australia h1{
+    font-size: xx-large;
+}
+.information{
+    display: inline-flex;   
+}
+.information h4{
+   padding: 1.1rem 0.5rem;
+   font-size: larger;
+}
+.method_pay div{
+    display: inline-flex;
+    padding: 2rem 0.9rem;
+}
+.method_pay img{
+    width: 12rem;
+    height: 13rem;
+}
+ /*part two  */
+aside{
+    background: rgb(5, 48, 68);
+    height:100vh;
+    margin: 40px;
+    border-radius: 40px;
+    padding: 20px;       
+}
+.center{
+    background-color:white;
+    width:83%;
+    height: 450px;
+    margin: 40px;
+    padding: 50px;
+    border-radius: 30px;
+    display: inline-block;   
+}
+#solid{
+    border: solid 1px black;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    margin: 5px;
+}

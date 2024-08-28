@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="../style/crud.css">
+</head>
+<body>
+<div class="crud">
+<div class="head">
+    <h2>Proudects</h2>
+    <p>product management system</p>
+</div> 
+<div class="inputs">
+    <input type="text" placeholder="title" id="title">
+    <div class="price">
+        <!-- onkeyup يعنى بعد ما تشيل ايدك من عالكيبورد وديلى النتيجة دى فالتوتل -->
+        <input onkeyup="gettotal()" type="number" placeholder="price" id="price">
+        <input onkeyup="gettotal()" type="number" placeholder="taxes" id="taxes">
+        <input onkeyup="gettotal()" type="number" placeholder="ads" id="ads">
+        <input onkeyup="gettotal()" type="number" placeholder="discount" id="discount">
+        <small id="total"></small>
+    </div>
+    <input type="number" placeholder="count" id="count">
+    <input type="text" placeholder="detalis" id="category">
+<button id="submit">creat</button>
+</div>
+<div class="outputs">
+    <div class="searchblock">
+        <input type="text"  id="search" placeholder="search">
+        <div class="btnsearch">
+            <button id="searchtitle">Search by title</button>
+            <button id="searctype">Search by type</button>
+        </div>
+    </div>
+</div>
+  <div>
+    <div id="deletall">
+
+    </div>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Ads</th>
+        <th>Discount</th>
+        <th>Total</th>
+        <th>Category</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    <tbody id="tbody">
+      
+    </tbody>
+</table>
+   </div>
+
+ </div>
+
+    <script src="../script/script.js"></script>
+</body>
+</html>
